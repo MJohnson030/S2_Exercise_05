@@ -12,6 +12,10 @@
 
 */
 
+/* div {
+    outline: 1px solid red;
+} */
+
 
 /* Grid Rows Styles */
 div.row {
@@ -56,3 +60,9 @@ div.col-3-4 {
 
 /* Grid Outline Styles */
 
+ /* practice */
+ section {
+     display: grid;
+     grid-template-rows: 100px auto 100px;
+     grid-template-columns: 25% 50% 25%;
+ }
